@@ -12,6 +12,7 @@
 }
 
 .text {
+    padding: 5px;
     width: 85%;
     background-color: #0066CC;
     border-radius: 5px;

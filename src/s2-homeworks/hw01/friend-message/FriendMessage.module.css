@@ -27,11 +27,13 @@
 }
 
 .friendText {
+    padding: 5px;
     width: 85%;
     margin-left: 14%;
-    background-color: grey;
+    background-color: #F5F7FB;
+    ;
     border-radius: 5px;
-    color: #fff;
+    color: #000;
     min-height: 3em;
 }
 

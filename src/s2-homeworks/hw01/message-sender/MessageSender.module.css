@@ -1,25 +1,27 @@
 .sendForm {
     margin-top: 20px;
-    background-color: red;
+    border-radius: 5px;
     padding: 20px;
-    /* overflow: hidden; */
 }
 
 .textarea {
-    /* float: left; */
-    width: 80%;
+    width: 85%;
     padding: 10px;
-    /* line-height: 30px; */
-    /* border: 1px solid transparent; */
     border-radius: 10px;
     resize: none;
-    /* placeholder:"this is placeholder" */
-    /* height: 4em;rows:5;height:calc(3em + 8px); */
+    border: none;
+    background-color: #F5F7FB;
 }
 
 .button {
-    /* float: right; */
     margin-left: 30px;
+    background-color: #0066CC;
+    height: 2.5em;
+    border: none;
+    border-radius: 5px;
+    width: 60px;
+    color: white;
+    float: right;
 }
 
 .button:hover {
