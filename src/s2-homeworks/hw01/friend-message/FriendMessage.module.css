@@ -1,19 +1,38 @@
 .friendMessage {
-    background-color: blue;
-    /* float:left; */
     width: 40%;
 }
+/* 
+.name {
+    font-size: 12px;
+    text-align: right;
+}
+
+.messageText {
+    white-space: normal;
+    text-align: justify;
+}
+
+.time {
+    text-align: right;
+    font-size: 12px;
+} */
 
 .friendImageAndText {
 
 }
 
 .friendImageAndText img {
-
+    float: left;
+    width: 40px;
 }
 
 .friendText {
-
+    width: 85%;
+    margin-left: 14%;
+    background-color: grey;
+    border-radius: 5px;
+    color: #fff;
+    min-height: 3em;
 }
 
 .friendText:after {
@@ -21,13 +40,14 @@
 }
 
 .friendName {
-
+    font-size: 12px;
 }
 
 .friendMessageText {
-
+    white-space: normal;
+    text-align: justify;
 }
 
 .friendTime {
-
+    font-size: 12px;
 }
