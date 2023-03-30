@@ -1,13 +1,25 @@
 .sendForm {
-
+    margin-top: 20px;
+    background-color: red;
+    padding: 20px;
+    /* overflow: hidden; */
 }
 
 .textarea {
-
+    /* float: left; */
+    width: 80%;
+    padding: 10px;
+    /* line-height: 30px; */
+    /* border: 1px solid transparent; */
+    border-radius: 10px;
+    resize: none;
+    /* placeholder:"this is placeholder" */
+    /* height: 4em;rows:5;height:calc(3em + 8px); */
 }
 
 .button {
-
+    /* float: right; */
+    margin-left: 30px;
 }
 
 .button:hover {

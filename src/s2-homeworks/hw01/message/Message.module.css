@@ -1,31 +1,37 @@
 .message {
-
+    width: 40%;
+    margin-left: 60%;
 }
 
 .imageAndText {
-
 }
 
 .imageAndText img {
-
+    float: right;
+    width: 40px;
 }
 
 .text {
-
+    width: 85%;
+    background-color: #0066CC;
+    border-radius: 5px;
+    color: #fff;
 }
 
 .text:after {
-
 }
 
 .name {
-
+    font-size: 12px;
+    text-align: right;
 }
 
 .messageText {
-
+    white-space: normal;
+    text-align: justify;
 }
 
 .time {
-
+    text-align: right;
+    font-size: 12px;
 }
