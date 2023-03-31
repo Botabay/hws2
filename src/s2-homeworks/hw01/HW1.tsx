@@ -20,7 +20,7 @@ export type MessageType = {
     message: messageType,
 }
 type userType = {
-    avatar:typeof avatar,// i'm not sure for the record!!!!!!!!
+    avatar: string,//(typeof avatar) or (string)
     name: string,
 }
 type messageType = {
