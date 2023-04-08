@@ -1,5 +1,6 @@
 import React from 'react'
-import { AffairType, filterAffairs } from '../HW2'
+import { AffairType,  } from '../HW2'
+import {filterAffairs} from '../affairs/Affairs'
 
 let initialState: AffairType[]
 
