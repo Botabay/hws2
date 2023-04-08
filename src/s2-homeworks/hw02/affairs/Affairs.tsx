@@ -1,21 +1,11 @@
 import React, {useState} from 'react'
 import Affair from './affair/Affair'
-import {AffairType, AffairPriorityType} from '../HW2'
+import {AffairType, FilterType, filterAffairs} from '../HW2'
 import s from './Affairs.module.css'
 
 type AffairsPropsType = {
     data: AffairType[] // need to fix any
     deleteAffairCallback: (_id:number)=>void
-}
-type FilterType = 'all' | AffairPriorityType
-// pure helper functions
-export   const filterAffairs = (affairs: AffairType[],
-                        filter: FilterType): AffairType[] => { // need to fix any
-    if (filter==='all') {
-        return affairs;
-    } else {
-        return affairs.filter(el=>el.priority===filter) // need to fix 
-    }   
 }
 
 function Affairs(props: AffairsPropsType) {
