@@ -50,11 +50,8 @@ function HW2() {
    
     const deleteAffairCallback = (_id: number) => { // need to fix any
         // need to fix   
-        setAffairs([...affairs.filter(el=>el._id!==_id)])
-        console.log(affairs);
-        
+        setAffairs(affairs.filter(el=>el._id!==_id))             
     }
-
     return (
         <div id={'hw2'}>
             <div className={s2.hwTitle}>Homework #2</div>
