@@ -1,6 +1,6 @@
 {
-  "name": "hws2",
-  "homepage": "http://Botabay.github.io/hws2",
+  "name": "autocheckhomework",
+  "homepage": "http://Botabay.github.io/autoCheckHomework",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
