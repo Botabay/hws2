@@ -34,12 +34,15 @@ width: 93px;
 height: 20px;
 left: 82px;
 top: 232px; */
+box-sizing: border-box;
+border: 1px solid #D1D1D1;
+border-radius: 5px;
 
-    font-family: 'Montserrat';
+    /* font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 20px; */
     /* identical to box height */
     color: #000000;
 }
