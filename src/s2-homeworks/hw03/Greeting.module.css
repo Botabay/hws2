@@ -76,18 +76,18 @@ bottom: 0%; */
 }
 
 .button:focus {
-    opacity: 1;
+    /* opacity: 1; */
     /* background: #0066CC;
 border-radius: 3px; */
 }
 
 .button:active {
-    opacity: 1;
-border-radius: 3px;
+    /* opacity: 1;
+border-radius: 3px; */
 }
 
 .button:disabled {
-    background: #0066CC;
+    /* background: #0066CC; */
 }
 
 .text {

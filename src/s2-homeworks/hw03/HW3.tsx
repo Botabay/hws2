@@ -24,7 +24,7 @@ export type UserType = {
 }
 
 export const pureAddUserCallback = (name: string,  setUsers: React.Dispatch<UserType[]>, users: UserType[]) => { // need to fix any          
-    const user = {_id:users.length+1,name:name}    
+    const user = {_id:users.length+1,name:name.trim()}    
     setUsers([...users, user])    
 }
 

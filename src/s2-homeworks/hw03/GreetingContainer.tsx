@@ -13,14 +13,16 @@ export const pureAddUser = (
                             addUserCallback: (name:string)=>void
                             ) => {
     // если имя пустое - показать ошибку, иначе - добавить юзера и очистить инпут
-    if (name.trim()==='') setError('Ошибка! Введите имя!');
+    name=name.trim();
+    if (name==='') setError('Ошибка! Введите имя!');
     else {
         addUserCallback(name);setName('');
     }
 }
 
 export const pureOnBlur = (name: string, setError: React.Dispatch<string>) => { // если имя пустое - показать ошибку
-    if (name.trim()==='') setError('Ошибка! Введите имя!');
+    name=name.trim();
+    if (name==='') setError('Ошибка! Введите имя!');
 }
 
 export const pureOnEnter = (
