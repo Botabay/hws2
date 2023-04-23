@@ -16,6 +16,7 @@
 
 .secondary {
     border: 1px solid #0066CC;
+    background: #fff;
 }
 
 .secondary span{
@@ -51,13 +52,15 @@
 }
 
 .default:active {
-    background-color: black;
+    background: #0059B3;
 }
 
 .secondary:active {
+    background: #C9E5FF;
 }
 
 .red:active {
+    background: #B31232;
 }
 
 .button:disabled {
