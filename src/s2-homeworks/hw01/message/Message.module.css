@@ -5,7 +5,7 @@
 
 .imageAndText {
     display: flex;
-    flex-direction:row-reverse ;
+    flex-direction: row-reverse;
     align-items: end;
     gap: 10px;
 }
@@ -43,7 +43,7 @@
 .messageText {
     white-space: normal;
     text-align: justify;
-
+    overflow-wrap: break-word;
 }
 
 .time {

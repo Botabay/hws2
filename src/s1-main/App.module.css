@@ -1,6 +1,6 @@
 .App {
     --header_height: 60px;
-    width: 920px;
+    max-width: 1024px;
     margin: 0 auto;
 
 }
