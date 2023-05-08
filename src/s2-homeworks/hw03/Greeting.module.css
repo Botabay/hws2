@@ -1,11 +1,11 @@
 .greetingForm {
     width: 80%;
-    margin: 0 auto;
 }
 
 .inputAndButtonContainer {
     display: flex;
 }
+
 
 .error {
     color: #CC0000;
@@ -18,79 +18,66 @@
 
 .input {
     box-sizing: border-box;
-    /* position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%; */
-
     border: 1px solid #D1D1D1;
-    border-radius: 5px;
+    width: 52vw;
+    max-width: 390px;
+    min-width: 330px;
+    height: 2rem;
+    border-radius: 3px;
+    outline: none;
 }
 
 .input:focus {
-    /* position: absolute;
-width: 93px;
-height: 20px;
-left: 82px;
-top: 232px; */
-box-sizing: border-box;
-border: 1px solid #D1D1D1;
-border-radius: 5px;
-
-    /* font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px; */
-    /* identical to box height */
+    box-sizing: border-box;
+    border: 1px solid #D1D1D1;
+    outline: none;
+    border-radius: 5px;
+    width: 52vw;
+    max-width: 390px;
+    min-width: 330px;
     color: #000000;
 }
 
 .errorInput {
     box-sizing: border-box;
-
-    /* position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%; */
-
     border: 1px solid #CC0000;
     border-radius: 5px;
     border-color: #CC0000;
+    height: 2rem;
+    width: 52vw;
+    max-width: 390px;
+    min-width: 330px;
 }
 
 .button {
     margin-left: 10px;
     background: #0066CC;
-    opacity: 0.5;
     border-radius: 3px;
-    width: 30px;
-    height: 20px;
+    width: 20%;
+    max-width: 80px;
+    min-width: 50px;
+    height: 2rem;
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 10px;
-    line-height: 20px;
+    font-size: 14px;
 
     color: #FFFFFF;
+    outline: none;
+    border:none;
 }
 
 .button:focus {
-    /* opacity: 1; */
-    /* background: #0066CC;
-border-radius: 3px; */
+    opacity: 1;
 }
 
 .button:active {
-    /* opacity: 1;
-border-radius: 3px; */
+    opacity: 1;
 }
 
 .button:disabled {
-    /* background: #0066CC; */
+    opacity: 0.5;
 }
 
 .text {
@@ -100,11 +87,6 @@ border-radius: 3px; */
     font-size: 14px;
     line-height: 17px;
     color: rgba(0, 0, 0, 0.5);
-    /* position: absolute;
-width: 143px;
-height: 17px;
-left: 70px;
-top: 998px; */
 }
 
 .greeting {
@@ -113,7 +95,6 @@ top: 998px; */
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height */
     color: #000000;
 
 }
