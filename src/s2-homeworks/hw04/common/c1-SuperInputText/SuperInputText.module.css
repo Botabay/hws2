@@ -4,14 +4,18 @@
 
 .input {
     border: 1px solid #D1D1D1;
-    border-radius: 5px;
+    border-radius: 3px;
+    height:2em;
+    outline: none;
 }
 
 .inputWrapper {
-    position: relative;
+    /* position: relative; */
+    display: flex;
 }
 
 .superInput {
+
 }
 
 .errorInput {
@@ -19,6 +23,7 @@
 }
 
 .errorInput:focus {
+
 }
 
 .error {
