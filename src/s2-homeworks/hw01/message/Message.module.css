@@ -4,23 +4,35 @@
 }
 
 .imageAndText {
+    display: flex;
+    flex-direction:row-reverse ;
+    align-items: end;
+    gap: 10px;
 }
 
 .imageAndText img {
-    float: right;
-    width: 40px;
+    width: 12%;
 }
 
 .text {
     padding: 5px;
     width: 85%;
     background-color: #0066CC;
-    border-radius: 5px;
+    border-radius: 5px 5px 0px 5px;
     color: #fff;
     min-height: 3em;
+    position: relative;
 }
 
 .text:after {
+    width: 10px;
+    height: 10px;
+    content: "";
+    position: absolute;
+    /* background:radial-gradient(circle at 0 0, white 15px, #0066CC 0); */
+    background: linear-gradient(45deg, #0066CC 0%, #0066CC 50%, transparent 50%, transparent 100%);
+    bottom: 0;
+    right: -10px;
 }
 
 .name {
@@ -31,9 +43,11 @@
 .messageText {
     white-space: normal;
     text-align: justify;
+
 }
 
 .time {
     text-align: right;
-    font-size: 12px;
+    font-size: 10px;
+    padding-right: 8px;
 }

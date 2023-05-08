@@ -1,10 +1,12 @@
 .sidebar {
+    /* display: none; */
 }
 
 .sidebar.open {
 }
 
 .background {
+    opacity: 0.7;
 }
 
 .nav {
