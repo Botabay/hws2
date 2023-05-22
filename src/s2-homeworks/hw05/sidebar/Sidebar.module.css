@@ -3,16 +3,22 @@
     position: absolute;
     background: white;
     z-index: 5;
-    margin-left: -300px;
-    transition: margin-left 1s;
+    
+    transition-duration: 1s;
+    transform: translate(-300px);
+    /* margin-left: -300px;
+    transition: margin-left 1s; */
 }
 
 .sidebar.open {
     width: 30%;
     min-width: 200px;
     max-width: 300px;
-    margin-left: 0px;
-    transition: margin-left 1s;
+
+    transition-duration: 1s;
+    transform: translate(0px);
+    /* margin-left: 0px;
+    transition: margin-left 1s; */
 }
 
 .background {

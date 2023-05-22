@@ -1,5 +1,12 @@
 .buttonsContainer {
+    width: 40vw;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    gap:10%;
 }
 
 .editableSpanContainer {
+    width: 40vw;
+    max-width: 300px;
 }
