@@ -44,7 +44,7 @@ const SuperPagination: React.FC<SuperPaginationPropsType> = (
                 показать
             </span>
 
-            <SuperSelect
+            {/* <SuperSelect
                 id={id + '-pagination-select'}
                 value={itemsCountForPage}
                 options={[
@@ -53,7 +53,7 @@ const SuperPagination: React.FC<SuperPaginationPropsType> = (
                     {id: 10, value: 10},
                 ]}
                 onChange={onChangeSelect}
-            />
+            /> */} hidden by me with comments,reason is conflict of types(lesson7)
 
             <span className={s.text2}>
                 строк в таблице
