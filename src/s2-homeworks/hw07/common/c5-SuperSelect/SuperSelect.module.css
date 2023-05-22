@@ -1,7 +1,11 @@
 .select {
+    max-width: 350px;
+    flex-basis: 280px;
+    min-width: 180px;
 }
 
 .select:focus {
+    
 }
 
 
