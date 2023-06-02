@@ -27,15 +27,24 @@ function Clock() {
     const onMouseLeave = () => { // пишут студенты // спрятать дату если мышка не наведена
 
     }
-    const formatFunc=(c:any)=>c<10?'0'+c:c
-    
-    const stringTime = `${formatFunc(date.getHours())}:${formatFunc(date.getMinutes())}:${formatFunc(date.getSeconds())}`
+
+    const timeFormatter = new Intl.DateTimeFormat("en-US", {
+        hour: "numeric",
+        minute: "numeric",
+        second: "numeric"
+    });
+    const stringTime = timeFormatter.format(new Date())
         || 'date->time' || <br /> // часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01) // пишут студенты
-        
-    const stringDate = `${formatFunc(date.getDate())}.${formatFunc(date.getMonth())}.${formatFunc(date.getFullYear())}` ||'date->date' || <br /> // день.месяц.год (01.02.2022) // пишут студенты, варианты 01.02.0123/01.02.-123/01.02.12345 не рассматриваем
+    const dateFormatter = new Intl.DateTimeFormat("ru", {
+        year: "numeric",
+        month: "numeric",
+        day: "numeric"
+    });
+    const stringDate = dateFormatter.format(new Date()) || 'date->date' || <br /> // день.месяц.год (01.02.2022) // пишут студенты, варианты 01.02.0123/01.02.-123/01.02.12345 не рассматриваем
 
     // день недели на английском, месяц на английском (https://learn.javascript.ru/intl#intl-datetimeformat)
-    const stringDay = 'date->day' || <br /> // пишут студенты
+    const weekdayFormatter = new Intl.DateTimeFormat("en-US", { weekday: 'long', month: 'long' });
+    const stringDay = weekdayFormatter.format(new Date()) || 'date->day' || <br /> // пишут студенты
     const stringMonth = 'date->month' || <br /> // пишут студенты
 
     return (
