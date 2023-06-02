@@ -28,7 +28,7 @@ function Clock() {
 
     }
 
-    const timeFormatter = new Intl.DateTimeFormat("en-US", {
+    const timeFormatter = new Intl.DateTimeFormat("ru", {
         hour: "numeric",
         minute: "numeric",
         second: "numeric"
