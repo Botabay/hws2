@@ -1,4 +1,4 @@
-type StateType = {
+export type StateType = {
     isLoading: boolean
 }
 type ACValuesType = LoadingActionType;
