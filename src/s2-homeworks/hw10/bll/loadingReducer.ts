@@ -1,11 +1,15 @@
-const initState = {
+type StateType = {
+    isLoading: boolean
+}
+type ACValuesType = LoadingActionType;
+const initState: StateType = {
     isLoading: false,
 }
 
-export const loadingReducer = (state = initState, action: any): any => { // fix any
+export const loadingReducer = (state = initState, action: ACValuesType): StateType => { // fix any
     switch (action.type) {
         // пишет студент  // need to fix
-
+        case 'CHANGE_LOADING': return { isLoading: action.isLoading }
         default:
             return state
     }
