@@ -1,6 +1,6 @@
 .select {
     max-width: 350px;
-    flex-basis: 280px;
+    width: 30%;
     min-width: 180px;
 }
 

@@ -23,6 +23,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = ({
     onChangeOption,
     ...restProps
 }) => {
+    
     const mappedOptions: JSX.Element[] = options
         ? options.map((o) => (
               <option
@@ -42,6 +43,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = ({
     }
 
     const finalSelectClassName = s.select + (className ? ' ' + className : '')
+console.log(finalSelectClassName);
 
     return (
         <select

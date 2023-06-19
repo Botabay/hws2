@@ -11,13 +11,13 @@ import s from './HW7.module.css'
 * 4 - сделать стили в соответствии с дизайном
 * */
 export type ArrType={//created type by me
-    id:string
+    id:number
     value:string
 }
 const arr:ArrType[] = [//by me
-    { id: '1', value: 'x' },
-    { id: '2', value: 'y' },
-    { id: '3', value: 'z' },
+    { id: 1, value: 'x' },
+    { id: 2, value: 'y' },
+    { id: 3, value: 'z' },
 ] // value может быть изменено
 
 const HW7 = () => {
