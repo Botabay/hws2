@@ -1,8 +1,8 @@
 .buttonsContainer {
-    outline: 1px solid red;
     display: flex;
     gap:20px;
     white-space: nowrap;
+    width:70%;
 }
 
 .buttonsContainer button {
@@ -10,35 +10,37 @@
 }
 
 .responseContainer {
-    outline: 1px solid red;
+    width:70%;
+    display: flex;
+    gap:20px;
 }
 
 .imageContainer {
-    outline: 1px solid red;
     height: 300px;
+    width: 400px;
 }
 
 .image {
-    outline: 1px solid red;
     height: 100%;
     width: 100%;
 }
 
 .textContainer {
-    outline: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .code {
-    outline: 1px solid red;
     height: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .text {
-    outline: 1px solid red;
     height: 20px;
 }
 
 .info {
-    outline: 1px solid red;
     height: 20px;
 }
