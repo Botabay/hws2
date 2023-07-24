@@ -1,7 +1,14 @@
-.tech {
+.container {
+    position: relative;
+    font-size: 12px;
+}
 
+.tech {
+    /* font-size: 12px; */
 }
 
 .loading {
-
+    position: absolute;
+    top: 80px;
+    left: 240px
 }
