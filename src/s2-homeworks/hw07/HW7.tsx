@@ -12,7 +12,7 @@ import s from './HW7.module.css'
 * */
 export type ArrType={//created type by me
     id:number
-    value:string
+    value:string | number
 }
 const arr:ArrType[] = [//by me
     { id: 1, value: 'x' },
